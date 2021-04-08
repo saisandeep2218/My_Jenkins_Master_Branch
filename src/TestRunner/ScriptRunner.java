@@ -12,7 +12,7 @@ public class ScriptRunner extends driverUtility {
 		HomePageTestScript      hs = new HomePageTestScript();
 		UserMgmtTPageTestScript us = new UserMgmtTPageTestScript();
 		genericModule.readInputFromUser();
-		driverUtility.launchDriver_Url();
+		driverUtility.launchDriver_Urls();
 //		genericModule.seDragandDrop();
 //		genericModule.seWindowHandle();
 		genericModule.seWindowAlerts();

@@ -9,10 +9,10 @@ import TestScripts.UserMgmtTPageTestScript;
 public class ScriptRunner extends driverUtility {
 
 	public static void main(String[] args) {
-		HomePageTestScript      hs = new HomePageTestScript();
-		UserMgmtTPageTestScript us = new UserMgmtTPageTestScript();
-		genericModule.readInputFromUser();
-		driverUtility.launchDriver_Url();
+		HomePageTestScript      hs1 = new HomePageTestScript();
+		UserMgmtTPageTestScript us1 = new UserMgmtTPageTestScript();
+		genericModule.readInputFromUser1();
+		driverUtility.launchDriver_Url1();
 //		genericModule.seDragandDrop();
 //		genericModule.seWindowHandle();
 		genericModule.seWindowAlerts();
@@ -24,6 +24,11 @@ public class ScriptRunner extends driverUtility {
 //		us.ValidateDropDown();
 //		us.ValidateGetText();
 //		Sedriver.close();
+		genericModule.readInputFromUser();
+		driverUtility.launchDriver_Url();
+//		genericModule.seDragandDrop();
+//		genericModule.seWindowHandle();
+		genericModule.seWindowAlerts();
 
 	}
 
